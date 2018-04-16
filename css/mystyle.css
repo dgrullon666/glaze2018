@@ -1,0 +1,174 @@
+/* Reset */
+*{
+     box-sizing: border-box;
+     box-sizing: 0;
+    padding:0;
+    
+}
+html {
+    font-size: 20px;
+    font-family: 'Boogaloo', sans-serif;
+}
+header {
+    background-color: #F633FF;
+    color: #FFFF;
+    font-size: 30px
+}
+img {
+    width: 200px;
+    asheight: 200 px
+}
+h2 {
+   
+    text-align:right;
+    font-size: 20px;
+    font-style:oblique;
+    word-spacing:2px;
+}
+
+ul {
+    list-style-type: none;
+    color:#DCA8DB;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #F633FF;
+    margin-bottom: 25px;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    padding: 15px;
+    background-color:#fff;
+    color: #DCA8DB;
+}
+li a:hover {
+    background-color: #DCA8DB;
+color: #FFFF;
+}
+ 
+.shopper {
+    height:400px;
+    background:#fff url("../images/mineral-makeup.jpg") no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin-bottom: 25px;
+    }
+    .shopper button {
+        background-color: #fff;
+        width: 70px;
+        height: 55px;
+        color: #DCA8DB;
+       font-size: 1.2rem; 
+    }
+.new-arrivals {
+    margin: 10px;
+}
+h3 {
+    display: flex;
+    font-size: 2rem;
+    color: #F633FF;
+    margin-bottom: 5px;
+    
+}
+
+.new-arrivals-parent{
+    display: flex;
+    background:no-repeat;
+    justify-content: center ;
+    padding:5px;
+}
+.new-items {
+    width: 25%;
+}
+.new-items button {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border:none;
+    background-color:#F633FF;
+    padding:10px;
+    color:#fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 0px 0px 0px 95px;
+    
+    
+}
+.new-items img {
+    width: 75%;
+    padding: 6px;
+    background-position: center;
+}
+.name {
+    color:#DCA8DB;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4px;
+}
+.product-type {
+    color: #DCA8DB;
+    text-align: center;
+    
+}
+.price {
+    color: #DCA8DB;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.faves {
+    width: 275px;
+    height: 75px;
+    margin:25px;
+}
+h4 {
+    display: flex;
+    font-size: 2rem;
+    color: #F633FF;
+    margin-bottom: 5px;
+}
+.faves-parent {
+    display: flex;
+    background:no-repeat;
+    padding:12px;
+}
+.faves-items {
+    margin-bottom: 80px;
+}
+
+.faves-items img {
+    width: 225px;
+    height: auto;
+}
+
+.faves-items button {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border:none;
+    background-color:#F633FF;
+    padding:10px;
+    color:#fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 20px 20px 20px 100px;
+}
+#footer {
+position:fixed;
+   left:0;
+   bottom: 0;
+   width: 100%;
+   height: 80px;
+   background-color:#F633FF;
+   color: white;
+   text-align: center;
+   margin-top: 60px;
+}
+button {
+    font-family: Boogaloo;
+}

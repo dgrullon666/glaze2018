@@ -9,14 +9,16 @@ html {
     font-size: 20px;
     font-family: 'Boogaloo', sans-serif;
 }
+
 header {
     background-color: #F633FF;
     color: #FFFF;
-    font-size: 30px
+    font-size: 30px;
 }
+
 img {
-    width: 200px;
-    asheight: 200 px
+    width:30% ;
+    height: auto;
 }
 h2 {
    
@@ -50,8 +52,9 @@ color: #FFFF;
  
 .shopper {
     height:400px;
-    background:#fff url("../images/mineral-makeup.jpg") no-repeat;
+    background:#fff url("../images/glitter.jpg") no-repeat;
     background-position: center;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items:flex-end;
@@ -63,6 +66,7 @@ color: #FFFF;
         height: 55px;
         color: #DCA8DB;
        font-size: 1.2rem; 
+        text-decoration: none;
     }
 .new-arrivals {
     margin: 10px;
@@ -78,7 +82,6 @@ h3 {
 .new-arrivals-parent{
     display: flex;
     background:no-repeat;
-    justify-content: center ;
     padding:5px;
 }
 .new-items {
@@ -94,9 +97,7 @@ h3 {
     color:#fff;
     font-size: 1rem;
     border-radius: 5px;
-    margin: 0px 0px 0px 95px;
-    
-    
+    margin: 10px 0px 0px 30px;
 }
 .new-items img {
     width: 75%;
@@ -107,45 +108,39 @@ h3 {
     color:#DCA8DB;
     font-size: 1.3rem;
     font-weight: bold;
-    text-align: center;
     margin-top: 4px;
+     padding:0 40px;
 }
 .product-type {
     color: #DCA8DB;
-    text-align: center;
-    
+     padding:0 40px;
 }
 .price {
     color: #DCA8DB;
     font-weight: bolder;
-    text-align: center;
+    padding:0 40px;
 }
 
-.faves {
-    width: 275px;
-    height: 75px;
-    margin:25px;
-}
 h4 {
     display: flex;
     font-size: 2rem;
     color: #F633FF;
     margin-bottom: 5px;
 }
-.faves-parent {
+
+.faves {
+    margin: 10px;
+}
+
+.faves-parent{
     display: flex;
     background:no-repeat;
-    padding:12px;
+    justify-content: center ;
+    padding:5px;
 }
 .faves-items {
-    margin-bottom: 80px;
+    width: 25%;
 }
-
-.faves-items img {
-    width: 225px;
-    height: auto;
-}
-
 .faves-items button {
     display: flex;
     align-items:center;
@@ -156,19 +151,114 @@ h4 {
     color:#fff;
     font-size: 1rem;
     border-radius: 5px;
-    margin: 20px 20px 20px 100px;
+    margin: 10px 0px 0px 30px;
+    
+    
 }
-#footer {
-position:fixed;
-   left:0;
-   bottom: 0;
-   width: 100%;
-   height: 80px;
-   background-color:#F633FF;
-   color: white;
-   text-align: center;
-   margin-top: 60px;
+.faves-items img {
+    width: 75%;
+    padding: 6px;
+    background-position: center;
 }
+
 button {
     font-family: Boogaloo;
 }
+/* About Me Page*/
+.wrapper{
+   height:350px;
+    background-image:url(../images/lex.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.me{   
+    display: flex;
+    font-size: 1rem;
+    color: #DCA8DB;
+    text-align: center;
+    justify-content: center; 
+}
+
+/* FAQ Page*/
+.refund-child {
+    display: flex;
+    font-size: 1rem;
+    color: #DCA8DB;
+    margin-bottom: 5px;
+}
+.ship{
+    display: flex;
+    font-size: 1rem;
+    color: #DCA8DB;
+    margin-bottom: 5px;
+}
+
+h5{
+    color:#F633FF;
+    font-size: 2rem;
+    margin-bottom:20px;
+}
+
+.order-div{
+    font-size: 1rem;
+    color: #DCA8DB;
+}
+
+h6{
+     color:#F633FF;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+/*Why can't i close the spaces in btwn??*/
+.cruelfree{
+    display: flex;
+    font-size: 1rem;
+    color: #DCA8DB;
+    margin-top: 35px;
+    margin-bottom: 300;
+}
+/* Contact Us Page*/
+.model2 {
+    height:600px;
+    background:#fff url("../images/model2.jpg") no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.contact {
+    text-align: center;
+    margin-left: 560px
+}
+form{
+    padding: 10px;
+    font-size: 1rem;
+    color: #DCA8DB;
+    margin:0 560px 0;
+}
+
+.form-button {
+    color: #F633FF;
+    width: 90px;
+    height: 60px;
+    font-size: 1.5rem;
+    margin-left: 610px;  
+}
+footer {
+    display: block;
+    width: 100%;
+    height:auto;
+   background-color:#F633FF;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   padding:1rem;
+}
+.foot{
+    padding-top:40px;
+    color:white;
+}
+
